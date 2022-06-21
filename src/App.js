@@ -1,9 +1,12 @@
 import './App.css';
+import Info from './components/Info';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Start</h1>
+      <div className="wrapper">
+        <Info />
+      </div>
     </div>
   );
 }
