@@ -14,11 +14,13 @@
 }
 
 .wrapper {
-  max-width: 400px;
-  max-height: 800px;
+  max-width: 317px;
+  /* max-height: 800px; */
   /* display: flex; */
   /* justify-content: center; */
   background-color: #1A1B21;
+  border-radius: 10px;
+  margin: 44px 0;
 }
 
 .info {
@@ -31,12 +33,64 @@
 
 .info__photo {
   width: 317px;
+  border-radius: 10px 10px 0 0;
 }
 
 .info__title {
   color: #ffffff;
-  font-family: 'Inter';
   font-size: 25px;
   line-height: 30px;
   margin-top: 20px;
+}
+
+.info__subtitle {
+  color: #F3BF99;
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;  
+}
+
+.info__link {
+  text-decoration: none;
+  margin-top: 9px;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+  color: #F5F5F5;
+}
+
+.info__buttons {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-around;
+}
+
+.info__button {
+  border: none;
+  width: 115px;
+  height: 34px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.info__button > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.info__button--email {
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  margin-right: 17px;
+}
+
+.info__button--ld {
+  background-color: #5093E2;
+  color: #FFFFFF;
 }
