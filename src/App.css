@@ -152,6 +152,7 @@
 
 .footer__icon:not(:last-child) {
   margin-right: 25px;
+  cursor: pointer;
 }
 
 
